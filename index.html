@@ -23,7 +23,8 @@
 		justify-content: center;
 		align-items:center;
 		border-bottom:0.05em solid black;
-	}
+		z-index:100;
+	}z 
 	.title {
 		height:50vh;
 		color:white;
@@ -69,7 +70,7 @@
 	.leftside{
 		background-color:black;
 		color:white;
-		width: 30%;
+		width: 50%;
     	padding: 5% 10% 5% 5%;
 	}
 	.progressive{
@@ -129,10 +130,7 @@
 		justify-content:center;
 		margin:2% 0%;
 	}
-	iframe {
-		border:0.5em solid black;
-		width:900px;
-		height:500px;
+	
 	}
 	.tableauPlaceholder{
 		width:50%;
@@ -202,33 +200,47 @@
 			height:300px;
 		}
 
-	}
+	}div.box {text-allign:;}
 </style>
 <body>
 
 <!-- nav -->
 <nav>
-	<h3>Top 10 Coffee Consuming Countries </h3>
+	<h3>coffee talks </h3>
 </nav>
 
 <!-- text -->
 <div class='header title step'>
 	<div class='aligner'>
-		<h1>Top 10 Coffee Consuming Countries </h1>
-		<h2>Top 10 Coffee Consuming Countries </h2>	
+		<h1>How different countries drink their coffee </h1>
+		<h2>Sandra Braverman </h2>	
 	</div>
+
 </div>
+
+<div class='center_aligner'>
+ <img class='small' src="https://i.pinimg.com/originals/7d/9a/e1/7d9ae15057373f1304b12b1966ef758d.gif"> 
+ </div>
 
 
 <div class='text'>
-	<h2>Sandra Braverman </h2>	
-	Intro to your article. Mauris torquent velit faucibus tincidunt porta aliquam lacinia congue dapibus. Risus curabitur molestie egestas aptent hendrerit id hac at augue pharetra at sagittis. Gravida scelerisque ultrices non libero; rutrum ultrices? Sagittis semper per per semper non himenaeos. Metus parturient turpis etiam mauris sapien nisl lacus class sagittis maecenas mus! Risus vulputate, pretium cursus aenean consequat etiam fermentum sed blandit id.
+	<h2> </h2>	
+	Whether you're out for brunch with your friends, catching up with an old acquaintance and really testing how far you can go with the small talk, or just trying to survive the day - a cup of coffee always seems to be apart of the equation; for many, their morning ritual cannot be completed without their good ol' cuppa joe. Coffee is enjoyed by many cultures all around the world, and today we will look at how the top 10 most coffee consuming countries like to indulge in this bitter sweet beverage. 
 </div>
 
 <div class='text'>
-	<h1>visualizing how the highest consuming countries take their coffee </h1>
-	Sollicitudin, feugiat nibh diam. Mus placerat cras blandit cursus tempus curae; turpis, scelerisque curae; mauris cursus. Dictumst volutpat etiam nec nisl sapien risus? Auctor semper quisque, arcu penatibus tempus torquent. Nostra; phasellus penatibus primis nam ridiculus nunc? Dui suscipit habitant ante platea luctus ridiculus hac! Hendrerit mollis vitae ultricies habitant cum laoreet, in fames magnis. Himenaeos lacus cum ullamcorper aptent class quisque netus duis phasellus non etiam scelerisque.
+	<h1>even a bad cup of coffee is better than no coffee at all </h1>
+	According to <a href="https://www.worldatlas.com/articles/top-10-coffee-consuming-nations.html">World Atlas</a> , these are the highest coffee consuming countries around the world:  
 </div>
+
+<div class='center_aligner'>
+	<!-- change line 120 if you want to change the size of the image -->
+	<img class='small' src="data chart.png"> 	
+</div>
+
+<div class='text'>
+	<h1>but first... COFFEE!</h1>
+	After examining that the highest consumptions stems from Europe (in particular in the nothern regions), I decided to do some digging, and really get to the bottom of the most popular orders. With countries like Finland, Sweden, Denmark, taking their coffee with a pastry on the side, we have the oppsoite in Norway, Luxembourg, and Canada, where traditional black or drip coffee is the way to go. Additionally, unlike in Canada - where the drip is enjoyed in the comfort of one's home - all around Europe, it is a social gathering. In Sweden, this moment of gathering is called Fika! - which is a noun to indicate that it's time for a (traditional) black coffee and a baked good. 
 
 <!-- image 1 -->
 <div class='center_aligner'>
@@ -240,25 +252,13 @@
 	<div class='caption'>how the countries drink their coffee</div>	
 </div>
 
-
-<div class='text'>
-	<h1>Indicators change over the course of the year</h1>
-	Sollicitudin, feugiat nibh diam. Mus placerat cras blandit cursus tempus curae; turpis, scelerisque curae; mauris cursus. Dictumst volutpat etiam nec nisl sapien risus? Auctor semper quisque, arcu penatibus tempus torquent. Nostra; phasellus penatibus primis nam ridiculus nunc? Explore in the interactive below.
-</div>
-
-<!-- interactive embed, adjust the width and height as necessary, copy lines 155 to 157 to create a new interactive embed --> 
+<!-- start tableau public embed -->
 <div class='center_aligner'>
-	<iframe src="interactive.html" frameBorder=0 scrolling=no></iframe>
+	<div class='caption'>Tableau Mapping of the Countries Coffee Consumption</div>	
 </div>
 
-
-<div class='text'>
-	<h1>What other factors influence class indicators?</h1>
-	Sollicitudin, feugiat nibh diam. Mus placerat cras blandit cursus tempus curae; turpis, scelerisque curae; mauris cursus. Dictumst volutpat etiam nec nisl sapien risus? Auctor semper quisque, arcu penatibus tempus torquent. Nostra; phasellus penatibus primis nam ridiculus nunc? Dui suscipit habitant ante platea luctus ridiculus hac! Hendrerit mollis vitae ultricies habitant cum laoreet, in fames magnis. Himenaeos lacus cum ullamcorper aptent class quisque netus duis phasellus non etiam scelerisque.
-</div>
-
-
-<!-- counter -->
+</div><div class='tableauPlaceholder' id='viz1587407884418' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;Top25nationscoffeconsumptioninkilogramperpersonperyear&#47;Sheet3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Top25nationscoffeconsumptioninkilogramperpersonperyear&#47;Sheet3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;Top25nationscoffeconsumptioninkilogramperpersonperyear&#47;Sheet3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1587407884418');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<!-- end tableau embed link -->
 <div class='header sticky step' id='dynamic_sticky1'>
 </div>
 
@@ -266,33 +266,18 @@
 <div class='leftside'>
 
 	<div class='text progressive'>
-	<h1>Taking breaks matters</h1>
-	Mauris torquent velit faucibus tincidunt porta aliquam lacinia congue dapibus. Risus curabitur molestie egestas aptent hendrerit id hac at augue pharetra at sagittis. 
+	<h1>As long as there was coffee in the world, how bad could things be?</h1>
 	</div>
-
-	<div class='text progressive'>
-	<h1>Speaking opportunities matter</h1>
-	Feugiat mus tincidunt accumsan fermentum fusce consequat bibendum nulla class porta suscipit. Aliquet orci amet quam himenaeos nulla dolor! 
-	</div>
-
-	<div class='text progressive end'>
-	<h1>Hunger is an indirect correlate</h1>
-	Sollicitudin, feugiat nibh diam. Mus placerat cras blandit cursus tempus curae; turpis, scelerisque curae; mauris cursus. Dictumst volutpat etiam nec nisl sapien risus? 
-	</div>
-
-</div>
-
 
 
 <div class='text'>
-	<h1>Takeaways</h1>
-	Sollicitudin, feugiat nibh diam. Mus placerat cras blandit cursus tempus curae; turpis, scelerisque curae; mauris cursus. Dictumst volutpat etiam nec nisl sapien risus? Auctor semper quisque, arcu penatibus tempus torquent. Nostra; phasellus penatibus primis nam ridiculus nunc? Dui suscipit habitant ante platea luctus ridiculus hac! Hendrerit mollis vitae ultricies habitant cum laoreet, in fames magnis. Himenaeos lacus cum ullamcorper aptent class quisque netus duis phasellus non etiam scelerisque.
+	<h1>Life is short...</h1>
+	so enjoy your coffee!
+
+	Hopefully whenever you find yourself in one of these countries, enjoy your coffee the way a local would! 
 </div>
 
 <!-- image 3 -->
-<div class='center_aligner'>
-	<img class='large' src="images/2.png"> 	
-</div>
 
 </body>
 <script type="text/javascript">
@@ -354,7 +339,7 @@ scroller2
  // setup resize event
 window.addEventListener("resize", scroller2.resize);
 
-function count(number1, number2, step, title, label, location_id, prefix='+', suffix='KG'){
+function count(number1, number2, step, title, label, location_id, prefix='', suffix='KG'){
 	target = document.querySelector('#'+location_id)
 	console.log(target)
 	let text=number1;
